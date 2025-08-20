@@ -60,23 +60,25 @@ function Stopwatch() {
 
   return (
     <>
-      <p className="headp">STOP WATCH</p>
+      <div id="full">
+        <p className="headp">STOP WATCH</p>
 
-      <div className="maindiv">
-        <p className="timerp">{formatTime()}</p>
-        <div className="btndiv">
-          <button className="startbtn" onClick={Start}>
-            START
-          </button>
-          <button className="stopbtn" onClick={Stop}>
-            STOP
-          </button>
-          <button className="resetbtn" onClick={Reset}>
-            RESET
-          </button>
-          <button className="lapbtn" onClick={Lap}>
-            LAP
-          </button>
+        <div className="maindiv">
+          <p className="timerp">{formatTime()}</p>
+          <div className="btndiv">
+            <button className="startbtn" onClick={Start}>
+              START
+            </button>
+            <button className="stopbtn" onClick={Stop}>
+              STOP
+            </button>
+            <button className="resetbtn" onClick={Reset}>
+              RESET
+            </button>
+            <button className="lapbtn" onClick={Lap}>
+              LAP
+            </button>
+          </div>
         </div>
       </div>
       <div id="lapdiv"></div>
