@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgb(223, 218, 218);
+}
+
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid black 2px;
+  border-radius: 30px;
+  width: 550px;
+  height: 280px;
+  margin-left: 300px;
+  background-color: #fff;
+}
+
+.headp {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 5rem;
+  font-family: monospace;
+}
+
+.timerp {
+  font-size: 5rem;
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.maindiv button {
+  height: 50px;
+  width: 90px;
+  font-family: monospace;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.btndiv {
+  display: flex;
+  gap: 50px;
+}
+
+.startbtn {
+  background-color: hsl(120, 93%, 50%);
+}
+
+.startbtn:hover {
+  background-color: hsl(120, 93%, 30%);
+}
+
+.stopbtn {
+  background-color: hsl(0, 100%, 50%);
+}
+
+.stopbtn:hover {
+  background-color: hsl(0, 100%, 30%);
+}
+
+.resetbtn {
+  background-color: hsl(172, 83%, 50%);
+}
+
+.resetbtn:hover {
+  background-color: hsl(172, 83%, 30%);
+}
+
+.lapbtn {
+  background-color: hsl(39, 98%, 50%);
+}
+
+.lapbtn:hover {
+  background-color: hsl(39, 98%, 30%);
+}
+
+#lapdiv {
+  margin-top: 20px;
+}
+
+#lapdiv p {
+  text-align: center;
+  font-size: 2rem;
+  font-family: monospace;
+}
